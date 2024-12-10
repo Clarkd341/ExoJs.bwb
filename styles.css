@@ -1,0 +1,18 @@
+/* Style corps de la page */
+body {
+height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+/* Style de la section Formulaire */
+.Formulaire {
+    flex-direction: column;
+   justify-content: center;
+   text-align: center;
+    padding: 10px;
+    margin-top: 4px auto;
+    
+}
+
+ 

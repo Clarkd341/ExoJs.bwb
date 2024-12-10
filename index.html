@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Exojs</title>
+</head>
+<body>
+    
+    <h1>Formulaire d'assurance :</h1>
+
+     <!-- Début du fomulaire -->
+    <form id="Formulaire">
+        <article>
+            <label for="age">Âge :</label>
+            <input type="number" id="age" name="age">
+        </article>
+
+        <article>
+            <label for="anneesPermis">Années de permis :</label>
+            <input type="number" id="anneesPermis" name="anneesPermis">
+        </article>
+
+        <article>
+            <label for="accidents">Nombre d'accidents :</label>
+            <input type="number" id="accidents" name="accidents">
+        </article>
+
+        <article>
+            <label for="fidelite">Années de fidélité :</label>
+            <input type="number" id="fidelite" name="fidelite">
+        </article>
+
+        <button id="calculer">Calculer le tarif</button>
+    </form>
+     <!-- fin du fomulaire -->
+    
+    <!-- Zone pour afficher le résultat -->
+    <p id="resultat"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
